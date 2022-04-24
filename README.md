@@ -14,7 +14,7 @@ Database is connected directly to PowerBi Desktop.
 
 *** Some data exploration and some transformation/manipulation done in SSMS. SQL queries seen below. 
 
-*-* 
+***
 select 
 
 arrival_date_year,
@@ -27,10 +27,10 @@ from hotels
 
 group by arrival_date_year, hotel
 
-*-*
+***
 
 
-*-*
+***
 
 with hotels as (
 
@@ -56,5 +56,5 @@ left join dbo.meal_cost$
 
 on meal_cost$.meal = hotels.meal
 
-*-*
+***
 
